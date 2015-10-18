@@ -1,0 +1,102 @@
+﻿/*
+#nav{
+	width: 600px; /*width of nav bar
+ 	text-align: justify;
+ 	line-height: 0;
+ 	margin: 0;
+ 	padding: 0;
+ 	position:absolute;
+ 	right: 0px;
+}
+
+#nav:after {
+ 	content: '';
+  	display: inline-block;
+  	width: 100%;
+}
+
+#nav li {
+	display: inline-block;
+ 	line-height: 100%;
+}	
+*/
+@import url("slides1.css"); /*css for the js slider thing*/
+@import url("slides2.css");
+@import url("font-awesome.min.css");
+
+*{
+	font-family:Verdana, Helvetica, sans-serif;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#top{
+	
+}
+
+#logo1 {
+	height: 90px;
+	display:block;
+	float: left;
+	padding: 5px;
+
+}
+
+#banner-text{
+	padding: 40px 25px 0px 10px;
+	display: block;
+	float: left;
+	height: 35px;
+	
+	/*
+	position: absolute;
+	left: 100px;
+	*/
+
+}
+#top{
+	padding-bottom: 20px;
+}
+
+#nav{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	list-style-type: none;
+	margin: 0;
+	padding: 50px;
+	white-space: nowrap;
+	background-color: #cd252b;
+	min-width: 1000px;
+}
+
+#first{
+	padding-left: 50px;
+}
+
+#nav li{
+	display:inline-block;
+	white-space: nowrap;
+	
+}
+
+
+
+#nav li a{
+	padding: 0 5px;
+	color: #fff;
+	
+	
+}
+
+#nav li a:link{
+	
+	text-decoration: none;
+}
+
+#nav li a:visited{
+	text-decoration:none;
+}
