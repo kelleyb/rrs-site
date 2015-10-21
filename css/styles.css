@@ -1,28 +1,8 @@
-﻿/*
-#nav{
-	width: 600px; /*width of nav bar
- 	text-align: justify;
- 	line-height: 0;
- 	margin: 0;
- 	padding: 0;
- 	position:absolute;
- 	right: 0px;
-}
-
-#nav:after {
- 	content: '';
-  	display: inline-block;
-  	width: 100%;
-}
-
-#nav li {
-	display: inline-block;
- 	line-height: 100%;
-}	
-*/
-@import url("slides1.css"); /*css for the js slider thing*/
+﻿@import url("slides1.css"); /*css for the js slider thing*/
 @import url("slides2.css");
 @import url("font-awesome.min.css");
+
+@import url("subpage.css"); /*css for pages besides homepage*/
 
 *{
 	font-family:Verdana, Helvetica, sans-serif;
@@ -31,9 +11,17 @@
 html, body{
 	margin: 0;
 	padding: 0;
+
 }
 
 
+.wrapper{ /*apparently this helps keep divs from moving around*/
+	margin-left:auto;
+	margin-right:auto;
+	width: 960px;
+	padding-bottom: 100px; /*helpful so footer divs don't overlap content*/
+	
+}
 #top{
 	
 }
@@ -52,11 +40,6 @@ html, body{
 	float: left;
 	height: 35px;
 	
-	/*
-	position: absolute;
-	left: 100px;
-	*/
-
 }
 #top{
 	padding-bottom: 20px;
@@ -84,12 +67,9 @@ html, body{
 }
 
 
-
 #nav li a{
-	padding: 0 5px;
+	padding: 0 15px;
 	color: #fff;
-	
-	
 }
 
 #nav li a:link{
@@ -99,4 +79,18 @@ html, body{
 
 #nav li a:visited{
 	text-decoration:none;
+}
+
+#social-media{
+	width: 100%;
+	height: 50px;
+	background: #f0f0f0;
+	float: left;
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+	background: #201a16;
+	float:left
 }
