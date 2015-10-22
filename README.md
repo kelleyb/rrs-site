@@ -3,4 +3,4 @@ Website for Rensselaer Rocket Society
 
 Simple website. Will add some backend later!
 
-not using expression web because it suddenly stopped working
+Now using Moderna bootstrap theme because this needs to be done REALLY soon.
