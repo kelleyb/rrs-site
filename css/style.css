@@ -2001,6 +2001,14 @@ tr td a {
 	color: #E73F45;
 }
 
+tr td a:hover {
+	color: #cd252b;
+}
+
+tr td a:focus {
+	color: #cd252b;
+}
+
 tr th {
 	padding-right: 10px;
 	padding-left: 10px;
