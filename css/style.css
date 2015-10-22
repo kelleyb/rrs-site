@@ -23,6 +23,8 @@ body {
 	color:#656565;
 }
 
+
+
 a:active {
 	outline:0;
 }
@@ -37,6 +39,14 @@ h1,h2, h3, h4, h5, h6 {
 	line-height:1.1em;
 	color:#333;
 	margin-bottom: 20px;
+}
+
+#logo1 {
+	height: 90px;
+	display:block;
+	float: left;
+	padding: 5px;
+	margin-top: 10px;
 }
 
 /* ===================================
@@ -1820,6 +1830,14 @@ article img.pull-right, article .align-right{
 
 @media (max-width: 767px) {
 
+	#logo1 {
+		height: 90px;
+		display:block;
+		float: left;
+		padding: 5px;
+		margin-top: -15px;
+	}
+
   body {
     padding-right: 0;
     padding-left: 0;
@@ -1974,15 +1992,9 @@ article img.pull-right, article .align-right{
 }
 
 @media (max-width: 360px) {
-
-}
-
-
-#logo1 {
-	max-height: 90px;
-	/*display:block;*/
-	float: left;
-	/*padding: 5px;*/
+	.navbar-brand {
+		margin-bottom: 30px;
+	}
 }
 
 tr td a {
