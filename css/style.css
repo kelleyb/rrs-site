@@ -109,7 +109,7 @@ header .navbar {
 }
 
 .navbar-brand {
-    color: #222;
+    color: #fff;
 	text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
@@ -364,6 +364,7 @@ section.callaction {
 .cta-text {
 	text-align: center;
 	margin-top:10px;
+	font-weight: normal;
 }
 
 
@@ -1825,6 +1826,7 @@ article img.pull-right, article .align-right{
   }
 	.navbar-brand {
 		margin-top: 10px;
+		margin-bottom: 10px;
 		border-bottom: none;
 	}
 	.navbar-header {
@@ -1977,18 +1979,8 @@ article img.pull-right, article .align-right{
 
 
 #logo1 {
-	height: 90px;
+	max-height: 90px;
 	/*display:block;*/
 	float: left;
-	margin-top: -20px;
 	/*padding: 5px;*/
-}
-
-#banner-text{
-	/*padding: 40px 25px 0px 10px;
-	display: block;*/
-	padding-top: 10px; 
-	float: left;
-	height: 35px;
-	
 }
