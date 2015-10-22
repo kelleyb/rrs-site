@@ -108,6 +108,8 @@ html, body{
 
 #social-media li{
 	float: left;
+	padding-right: 20px;
+	padding-left: 20px;
 
 }
 
@@ -127,8 +129,6 @@ html, body{
 }
 
 #yt-logo{
-	padding-right: 17px;
-	padding-left: 17px;
 	height: 23px;
 
 }
@@ -136,6 +136,10 @@ html, body{
 #fb-logo{
 	height: 25px;
 
+}
+
+#tw-logo{
+	height: 25px;
 }
 
 #footer{
