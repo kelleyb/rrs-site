@@ -1,18 +1,25 @@
-﻿#lh-nav{
+﻿.wrap_image{ /*for images with text wrapped around them*/
+	float: right;
+	margin: 10px;
+}
+
+#test_img{
+	height:150px;
+}
+
+#lh-nav{
 /*	position:absolute;
 	left: 150px;
 */	
 	float: left;
 	display:inline;
 	/*margin-right: 460px; /*force the lh-nav and page-content to be side by side*/	
-	width: 100px;
-	border: 3px black double;
+	width: 200px;
 	
 }
 
 #lh-nav ul{
 	list-style-type: none;
-	padding-left: 75px;
 }
 #lh-nav li{
 	font-size: 20px;
@@ -26,7 +33,6 @@
 	display: inline;
 	float: right;
 	margin: 0 auto;
-	width: 500px;
-	border: 5px black double;
-
+	width: 550px;
+	padding-right: 200px;
 }
