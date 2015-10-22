@@ -350,7 +350,7 @@ section.callaction {
 
 #content {
 	position:relative;
-	background:#fff;
+	background:#fcfcfc;
 	padding:50px 0 40px 0;
 }
 
@@ -1983,4 +1983,26 @@ article img.pull-right, article .align-right{
 	/*display:block;*/
 	float: left;
 	/*padding: 5px;*/
+}
+
+tr td a {
+	color: #E73F45;
+}
+
+tr th {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.center-col {
+	text-align: center;
+}
+
+.right-col {
+	text-align: right;
+}
+
+#wrapper {
+	background: #fcfcfc;
 }
