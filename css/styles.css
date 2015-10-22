@@ -16,10 +16,11 @@ html, body{
 
 
 .wrapper{ /*apparently this helps keep divs from moving around*/
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 960px;
 	padding-bottom: 100px; /*helpful so footer divs don't overlap content*/
+	border: 2px black dashed;
 	
 }
 #top{
@@ -67,17 +68,17 @@ html, body{
 }
 
 
-#nav li a{
+#nav a{
 	padding: 0 15px;
 	color: #fff;
 }
 
-#nav li a:link{
+#nav a:link{
 	
 	text-decoration: none;
 }
 
-#nav li a:visited{
+#nav a:visited{
 	text-decoration:none;
 }
 
