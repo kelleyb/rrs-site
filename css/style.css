@@ -332,7 +332,7 @@ ul.nav li.dropdown a {
 #featured .flexslider {
 	padding:0;
 	margin: 50px 0 0; 
-	background: #fff; 
+	background: #fcfcfc; /*background of slider should probably match page background*/
 	position: relative; 
 	zoom: 1;
 }
