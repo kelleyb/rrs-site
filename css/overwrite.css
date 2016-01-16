@@ -785,7 +785,23 @@ font-size: 10px;
           box-shadow: none;
 }
 
-
+/*adds a custom button class*/
+.btn-custom {
+  background-color: hsl(358, 70%, 49%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4252b", endColorstr="#d4252b");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d4252b), to(#d4252b));
+  background-image: -moz-linear-gradient(top, #d4252b, #d4252b);
+  background-image: -ms-linear-gradient(top, #d4252b, #d4252b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d4252b), color-stop(100%, #d4252b));
+  background-image: -webkit-linear-gradient(top, #d4252b, #d4252b);
+  background-image: -o-linear-gradient(top, #d4252b, #d4252b);
+  background-image: linear-gradient(#d4252b, #d4252b);
+  border-color: #d4252b #d4252b hsl(358, 70%, 49%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+  -webkit-font-smoothing: antialiased;
+}
 
 /* ==================================== */
 
@@ -1363,13 +1379,6 @@ font-weight:600;
      -moz-border-radius: 2px;
           border-radius: 2px;
 }
-
-
-
-
-
-
-
 
 
 
