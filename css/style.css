@@ -54,7 +54,7 @@ h1,h2, h3, h4, h5, h6 {
 ==================================== */
 
 .container {
-	padding:0 20px 0 20px;
+	/*padding:0 20px 0 20px;*/
 	position:relative;
 }
 
@@ -2032,3 +2032,24 @@ tr th {
 #wrapper {
 	background: #fcfcfc;
 }
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 150px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
