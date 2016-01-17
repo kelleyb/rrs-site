@@ -1385,4 +1385,10 @@ font-weight:600;
 	padding: 25px;
 }
 
+/*change color of those hamburger menu bar things for small screen*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#FFFFFF
+}
+
+
 
